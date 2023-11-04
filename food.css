@@ -1,0 +1,129 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: linear-gradient(rgba(150, 113, 113, 0.7),rgba(156, 105, 105, 0.7)),url(images/R.jpeg);
+  font-family:monospace;
+}
+.navbar{
+  width: 100%;
+  height: 150px;
+  border: 2px solid black;
+  margin-top: 0px;
+  background-color: rgba(157, 11, 11, 0.551);
+  
+
+}
+.navbar  a{
+  text-decoration: none;
+  color: rgb(27, 3, 3);
+  font-family:monospace,courier;
+  font-size: large;
+  font-weight: 500;
+ 
+}
+.navdiv{
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 900px;
+}
+.add-restuarant{
+  box-shadow: inset 0 0 0 0 #d68854;
+  /* color: #d68854; */
+ transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.add-restuarant:hover{
+   box-shadow: inset 100px 0 0 0 #d68854;
+  color: white;
+}
+.login{
+  margin-left: 50px;
+  box-shadow: inset 0 0 0 0 #d68854;
+  color: #d68854;
+ transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.login:hover{
+   box-shadow: inset 100px 0 0 0 #d68854;
+  color: white;
+}
+.signup{
+  margin-left: 50px;
+   box-shadow: inset 0 0 0 0 #d68854;
+  color: #d68854;
+   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.signup:hover{
+   box-shadow: inset 100px 0 0 0 #d68854;
+  color: white;
+}
+
+.about{
+  margin-left: 50px;
+  box-shadow: inset 0 0 0 0 #d68854;
+  color: #d68854;
+   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.about:hover{
+  box-shadow: inset 100px 0 0 0 #d68854;
+  color: white;
+}
+
+
+
+
+
+.name{
+  text-align: center;
+  margin-top: 30px;
+  font-size: xx-large;
+}
+#main2{
+  margin-top: 50px;
+   display: flex;
+  justify-content: space-around;
+  align-content: center;
+  bottom: 100px;
+  
+}
+#main{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.restuarant{
+  height: 200px;
+  width: 200px;
+  border: 0px solid rgba(156, 105, 105, 0.7);
+  border-radius:30px 0px 30px 0px ;
+}
+.restuarant1{
+  height: 200px;
+  width: 200px;
+  border: 0px solid red;
+  border-radius:30px 0px 30px 0px;
+}
+.starbucks{
+  height: 100%;
+  width: 100%;
+  
+}
+.images{
+  height: 100%;
+  width: 100%;
+  border-radius:30px 0px 30px 0px;
+  transition: 1s ease;
+}
+.images:hover{
+  -webkit-transform: scale(0.8);
+-ms-transform: scale(0.5);
+transform: scale(0.9);
+transition: 1s ease;
+cursor:pointer;
+}
